@@ -75,3 +75,6 @@
   - [x] What to do: Push your local git repository to a remote GitHub repository. 
   - [x] Expected: An accessible GitHub repository containing your project, with an updated README.
 
+### Other things of Note
+- I setup JUnit using Maven, but only wrote one test so far for the Student class, checking the add method.
+- I used streams to sort the students by name and id 
