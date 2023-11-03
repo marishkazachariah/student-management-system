@@ -24,3 +24,23 @@
   - [x] What to do: Extend your user class to have specific roles such as Admin, Teacher, and Student. 
   - [x] Expected: Subclasses for Admin, Teacher, and Student which inherit from a common User class. Use method overriding for role-specific behavior.
 
+### Exercise 15
+- [x] Utilize Generics in Methods 
+  - [x] What to do: Implement a generic method that can print details of various objects. 
+  - [x] Expected: A generic method that takes different object types (like Student or Course) and prints their details.
+
+### Exercise 16
+- [x] Annotations and Enums 
+  - [x] What to do: Use annotations for documentation and enums for specific constants like user roles. 
+  - [x] Expected: Code annotations for methods and enums to represent static data like user roles or course categories.
+
+### Exercise 17
+- [x] Basic Git Operations: Commit, Push, Pull 
+- [x] What to do: Commit your changes regularly to your local git repository. 
+- [x] Expected: A git log showing multiple commits, each with a meaningful message describing what was done.
+
+### Exercise 18
+- [x] Create a GitHub Repository and Push Code 
+  - [x] What to do: Push your local git repository to a remote GitHub repository. 
+  - [x] Expected: An accessible GitHub repository containing your project, with an updated README.
+
