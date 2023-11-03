@@ -3,8 +3,4 @@ public class Application {
         CLI cli = new CLI();
         cli.runCLI();
     }
-
-    void registerUser() {
-
-    }
 }
