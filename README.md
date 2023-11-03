@@ -14,6 +14,11 @@
   - [x] What to do: Create a main menu in the Command Line Interface (CLI) that provides options to navigate between different parts of the application. 
   - [x] Expected: A running CLI menu using switch statements that allows users to choose between User Management, Student Management, and so on.
 
+### Exercise 4
+- [x] Basic User Management using Arrays and Loops 
+  - [x] What to do: Use arrays and loops to store and manage user data. Implement basic CRUD operations.
+  - [x] Expected: CRUD operations like add, delete, update, and display users. Loops should be used for searching through the array to find specific records.
+
 ### Exercise 5
 - [x] Data Persistence using Basic Java I/O 
   - [x] What to do: Implement functionality to read and write the stored data to a text file. 
