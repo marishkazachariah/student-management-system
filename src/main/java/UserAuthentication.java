@@ -13,7 +13,7 @@ public class UserAuthentication {
         scanner = new Scanner(System.in);
         cli = new CLI();
     }
-
+    @MethodDocumentation("This method handles user registration.")
     public void register() {
         while (true) {
             System.out.println("Enter a username:");
@@ -59,7 +59,7 @@ public class UserAuthentication {
         }
         cli.runCLI();
     }
-
+    @MethodDocumentation("This method handles user login.")
     public void login() {
         loadUserData();
         System.out.println("Enter your username: ");
