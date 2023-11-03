@@ -94,7 +94,7 @@ public class UserAuthentication {
     }
 
     public void saveUserData(User user) {
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("user_data.txt", true))) {
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/main/java/user_data.txt", true))) {
             bufferedWriter.write(user.getUsername() + "," + user.getPassword() + "," + user.getRole().toString());
             bufferedWriter.newLine();
         } catch (IOException e) {
@@ -103,7 +103,7 @@ public class UserAuthentication {
     }
 
     public void loadUserData() {
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("user_data.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/java/user_data.txt"))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 String[] userData = line.split(",");
